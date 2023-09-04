@@ -223,6 +223,7 @@ function App() {
             <Typography
               variant="h4"
               textAlign="center"
+              className="no-select"
               sx={{
                 color: "white",
               }}
@@ -234,16 +235,25 @@ function App() {
             <Typography
               variant="h6"
               textAlign="center"
+              className="no-select"
               sx={{
                 color: "white",
               }}
             >
-              A rich text editor for React, view{" "}
+              A rich text editor for React. Build your own custom editor
+              using&nbsp;
+              <a
+                href="https://www.npmjs.com/package/inscribe-js"
+                target="_blank"
+              >
+                InscribeJS
+              </a>{" "}
+              view{" "}
               <a
                 href="https://github.com/ritwik1233/inscribejs"
                 target="_blank"
               >
-                Github repo
+                code example
               </a>{" "}
               for more details
             </Typography>
