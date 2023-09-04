@@ -6,6 +6,34 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  background: linear-gradient(to right, #003366, #0066cc, #99ccff);
+  margin: 0;
+  height: 100vh;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.red-text {
+  color: red;
+}
+
+.click-handler {
+  color: #61dafb;
+  cursor: pointer !important;
+  transition: border 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.click-handler:hover {
+  border: 2px solid lightblue;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +60,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
