@@ -219,6 +219,7 @@ function App() {
       />
       <Container maxWidth="md">
         <Grid container spacing={2}>
+          <Grid item xs={12} />
           <Grid item xs={12}>
             <Typography
               variant="h4"
@@ -247,17 +248,29 @@ function App() {
                 target="_blank"
               >
                 InscribeJS
-              </a>{" "}
-              view{" "}
-              <a
-                href="https://github.com/ritwik1233/inscribejs"
-                target="_blank"
-              >
-                code example
-              </a>{" "}
-              for more details
+              </a>
+              .{" "}
             </Typography>
           </Grid>
+          <Grid item xs={12}>
+            <Typography
+              variant="h6"
+              textAlign="center"
+              className="no-select"
+              sx={{
+                color: "white",
+              }}
+            >
+              View{" "}
+              <a
+                href="https://github.com/ritwik1233/inscribe-demo"
+                target="_blank"
+              >
+                full code example
+              </a>{" "}
+            </Typography>
+          </Grid>
+          <Grid item xs={12} />
           <Grid
             item
             xs={12}
